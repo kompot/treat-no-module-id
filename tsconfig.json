@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["DOM", "ES2019", "ESNext.Intl"],
+    "allowJs": true,
+    "skipLibCheck": false,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "paths": {
+      "frontm/*": ["src/default/*"]
+    },
+    "plugins": [
+      {
+        "name": "typescript-tslint-plugin"
+      }
+    ],
+    "noEmit": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "src/**/*",
+    "modules/**/*",
+    "stories/**/*",
+    "typings/**/*",
+    "scripts/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "**/*.test.js",
+    "**/__mocks__/*",
+    "**/__tests__/*"
+  ]
+}

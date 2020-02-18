@@ -1,0 +1,9 @@
+{
+  "items": [
+    {
+      "id": "default",
+      "group": "default",
+      "default": true
+    }
+  ]
+}
