@@ -76,7 +76,7 @@
     "intl": "^1.2.5",
     "is-wsl": "^1.1.0",
     "json-loader": "^0.5.7",
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.3.1",
     "localforage": "^1.7.2",
     "lodash": "^4.17.4",
     "lodash-webpack-plugin": "^0.11",
